@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait" appearance="dark"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController interfaceStyle="light" id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Australian Government - Coat of Arms with text" translatesAutoresizingMaskIntoConstraints="NO" id="uoL-D7-wIu">
+                                <rect key="frame" x="0.0" y="60" width="375" height="70"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="2Jr-QK-jdi"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="myGov Single Fast Forward" translatesAutoresizingMaskIntoConstraints="NO" id="1n5-N5-Q6F">
+                                <rect key="frame" x="-100" y="44" width="375" height="734"/>
+                                <color key="tintColor" name="splashImageColour"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="myGov-logo-black" translatesAutoresizingMaskIntoConstraints="NO" id="E8n-Ua-Ya3">
+                                <rect key="frame" x="50" y="385" width="175" height="52"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" name="splashBackgroundColour"/>
+                        <constraints>
+                            <constraint firstItem="uoL-D7-wIu" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="2Lg-jf-BjT"/>
+                            <constraint firstItem="uoL-D7-wIu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="FOi-Hz-o3s"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1n5-N5-Q6F" secondAttribute="bottom" id="MZ9-6E-GMt"/>
+                            <constraint firstItem="E8n-Ua-Ya3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="PCd-KO-5RX"/>
+                            <constraint firstItem="E8n-Ua-Ya3" firstAttribute="centerY" secondItem="1n5-N5-Q6F" secondAttribute="centerY" id="ZZ5-h4-WT5"/>
+                            <constraint firstItem="uoL-D7-wIu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="iZy-4e-06Y"/>
+                            <constraint firstItem="1n5-N5-Q6F" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jy2-Dm-hN2"/>
+                            <constraint firstItem="E8n-Ua-Ya3" firstAttribute="trailing" secondItem="1n5-N5-Q6F" secondAttribute="trailing" constant="-50" id="pIy-Tr-Nl0"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1n5-N5-Q6F" secondAttribute="trailing" constant="100" id="qjw-fY-gWu"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uoL-D7-wIu" secondAttribute="trailing" id="uqy-hq-Eki"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="leading" secondItem="1n5-N5-Q6F" secondAttribute="leading" constant="100" id="yzf-0T-2Z8"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.399999999999999" y="373.76311844077964"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Australian Government - Coat of Arms with text" width="1000" height="380"/>
+        <image name="myGov Single Fast Forward" width="370" height="676"/>
+        <image name="myGov-logo-black" width="180" height="52"/>
+        <namedColor name="splashBackgroundColour">
+            <color red="0.097244717179999995" green="0.1813896894" blue="0.32939669490000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="splashImageColour">
+            <color red="0.049816973510000001" green="0.11225015670000001" blue="0.22548136120000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,41 @@
+//
+//  Localizable.strings
+//  PTV
+//
+//  Created by Wael Saad on 23/5/2022.
+//
+
+// MARK: Global
+"global_ok_title" = "OK";
+"global_loading_message" = "Loading...";
+"global_unknown" = "Unknown";
+"global_no_internet_title" = "No internet connection";
+"global_no_internet_header" = "You need an internet connection to view %@.";
+"global_server_loading_header" = "There's a problem loading %@.";
+"global_no_internet_message" = "Connect to the internet or select **Retry** to try again.";
+"global_no_internet_message" = "You’re not connected to the internet. Please reconnect and try again.";
+"global_server_not_found" = "Not found";
+"global_server_error_title" = "Server error.";
+"global_server_error_code" = " Error code: ";
+"global_server_error_message" = "A server error has occurred. Please try again.";
+
+"global_session_failed_title" = "Session failed.";
+"global_session_failed_message" = "Your session has failed.";
+
+"global_session_expired_title" = "Session timeout.";
+"global_session_expired_message" = "Your session has ended. Please sign out of the app and sign in again.";
+"global_other_error_title" = "Error occurred.";
+
+// MARK: Route Types
+"route_types_navigation_title" = "PTV Trip Planner";
+"route_types_info_message" = "**PTV Trip Planner Tips**\n\nFollow the following steps to help you get as far away from the CBD as possible:- \n\t- select the type of ride you would like. \n\t- select the nearest route location. \n\t- select the desired furthest route location away from the CBD. \n\t- note the departuer times. \n\t- have a safe trip";
+
+// MARK: Route
+"route_title" = "Stops";
+"route_service_status" = "Service status:";
+
+// MARK: Departures
+"departures_navigation_title" = "Departures";
+"departures_departing_in" = "Departing in";
+"departures_platform" = "Platform";
+

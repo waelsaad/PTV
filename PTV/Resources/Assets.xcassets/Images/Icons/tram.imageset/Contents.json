@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "tram_icon_30x30_@3x.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "regional_bus_icon_30x31_@3x.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

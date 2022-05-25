@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "whiteCalendar_11x9_@3x.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

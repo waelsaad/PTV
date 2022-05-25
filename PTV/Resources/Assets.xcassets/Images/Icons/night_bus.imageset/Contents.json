@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "night_bus_icon_46x30_@3x.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

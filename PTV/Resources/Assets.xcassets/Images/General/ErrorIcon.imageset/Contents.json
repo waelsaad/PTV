@@ -1,0 +1,22 @@
+{
+  "images" : [
+    {
+      "filename" : "Fail_icon_-_light_mode.svg",
+      "idiom" : "universal"
+    },
+    {
+      "appearances" : [
+        {
+          "appearance" : "luminosity",
+          "value" : "dark"
+        }
+      ],
+      "filename" : "Fail_icon_-_dark_mode.svg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
