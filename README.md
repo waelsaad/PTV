@@ -2,7 +2,7 @@ PTV Planner
 ============
 
 # App Notes
-- The App fetches data from PTV timetable API a publically avilable API to allow users to use a means of transportation and their departure details.
+- The App fetches data from PTV timetable API a publically avilable API to allow users to use a means of transportation and take them as far as they would like from the CBD and display departure details for the selected route.
 - MVVM Design Pattern + SwiftUI + Combine
 - Using SPM integrated third party library SwiftyMarkdown for light usage to convert strings into `NSAttributedString`s using sensible defaults and a Swift-style syntax.
 - SwiftLint
