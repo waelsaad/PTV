@@ -7,7 +7,7 @@ PTV Planner
 - Using SPM integrated third party library SwiftyMarkdown for light usage to convert strings into `NSAttributedString`s using sensible defaults and a Swift-style syntax.
 - SwiftLint
 
-# Tasks Completed
+# Tasks Completed:-
 
 - Architect and implement the app using clean MVVM Design Pattern with SwiftUI and integrate with API
 - Structure the application code folders.
